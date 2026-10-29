@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: #fffeff;
+    display: flex;
+    justify-content: space-between;
+     padding:10px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    
+  
+}
+ ul li {
+    display: flex;
+    justify-content: space-around;
+      padding: 0 12px;
+}
+
+.logo{
+    display: flex;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#text{
+   color: #fff;
+   display: flex;
+   margin: 12px;
+   justify-content: left;
+   padding-top: 200px;
+   font-size: 40px;
+}
